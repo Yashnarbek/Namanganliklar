@@ -1,0 +1,26 @@
+.header-top{
+    background-color: #F6F6F6;
+}
+.logo{
+    background-color: #fff;
+}
+.mony.item{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+.search{
+    background-color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+.sign-in{
+    background-color: #7296EC;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
