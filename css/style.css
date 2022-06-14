@@ -27,3 +27,120 @@
 .site-nav{
     background-color: #fff;
 }
+.site-nav-item-link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #7F7F7F;
+}
+.last-news-section{
+    background-color: #fff;
+}
+.last-news-list{
+    background-color: #F6F6F6;
+}
+.last-news-item-link{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    color: #000;
+}
+.last-news-item-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4A4B4C;
+}
+.list-news-bottom-head{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #5E5F61;
+}
+.notification-head{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000;
+}
+.in-world{
+    background-color: #fff;
+}
+.in-world-head{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+}
+.in-world-head-link{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000;
+}
+.in-world-item{
+    background-color: #F6F6F6;
+}
+.basic{
+    background-color: #fff;
+}
+.basic-head{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+}
+.basic-list{
+    background-color: #F6F6F6;
+}
+.basic-item-head{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+}
+.basic-item-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #5E5F61;
+}
+footer{
+    background-color:  #7297EF;;
+}
+.footer-wrapper-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+}
+.info-link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+}
+.material-link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+}
+.social-text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #fff;
+}
