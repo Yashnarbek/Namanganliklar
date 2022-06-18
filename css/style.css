@@ -1,26 +1,37 @@
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    list-style-type: none;
 }
 body{
     font-family: 'Rubik', 'Arial', sans-Serif;
+    margin: 0;
+    padding: 0;
+}
+/* namanganliklar24 site bigen  */
+.container{
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.header-box{
+    background-color: #F6F6F6;
 }
 .header-top{
     display: flex;
     justify-content: space-between;
     padding: 30px 0px;
-    width: 1440px;
-    background-color: #F6F6F6;
 }
 .logo-wrapper{
     display: flex;
     align-items: center;
 }
 .logo{
-    padding: 9px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     margin-right: 35px;
+    padding: 9px;
     background-color: #fff;
 }
 .logo-img{
@@ -124,18 +135,16 @@ body{
     line-height: 19px;
     background-color: #7296EC;
     color: #fff;
-    border-radius: 16px;
+    border-radius: 10px;
 }
 .site-nav{
-    width: 1200px;
     background-color: #fff;
 }
 .site-list{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 40px;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding: 30px 0 20px 0;
     list-style-type: none;
     border-bottom: 1px solid #D1D1D1;
 }
@@ -157,17 +166,20 @@ body{
     justify-content: space-around;
     flex-wrap: wrap;
     width: 1200px;
+    padding: 0;
 }
 .last-news-item{
-    width: 394px;
     display: flex;
+    width: 390px;
+    margin-bottom: 10px;
+    padding: 20px 18px 18px 18px;
     flex-direction: column;
     border-radius: 15px;
     background-color: #F6F6F6;
-    margin-bottom: 10px;
 }
 .last-news-item-head{
     width: 358px;
+    margin: 0;
 }
 .last-news-item-link{
     display: inline-block;
@@ -190,7 +202,12 @@ body{
     height: 165px;
     border-radius: 15px;
 }
+.list-news-item-bottom{
+    display: flex;
+    align-items: center;
+}
 .list-news-bottom-head{
+    margin-left: 10px;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -199,47 +216,91 @@ body{
 }
 .notification{
     width: 1050px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+}
+.wrapper{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1050px;
+    padding: 25px 70px 25px 30px;
+    background-image: url(/img/bgc.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .notification-head-wrapper{
     width: 404px;
 }
 .notification-head{
+    margin: 0;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 26px;
     color: #000;
 }
+.open{
+    display: inline-block;
+    padding: 13px 30px 13px 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background-color: #F78B3B;
+    border-radius: 10px;
+}
 .in-world{
     background-color: #fff;
+    margin-bottom: 100px;
 }
 .in-world-wrapper{
     display: flex;
 }
 .in-world-list{
     width: 797px;
+    padding: 0;
 }
 .in-world-item{
     display: flex;
-    align-items: center;
-    border-radius: 15px;
     margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.in-world-item-head{
+    margin: 0;
+}
+.in-world-item-text{
+    margin: 10px 0;
 }
 .in-world-item-box{
-    display: flex;
-    flex-direction: column;
+    display: flex;flex-direction: column;
+    justify-content: space-between;
+    padding: 0 15px;
 }
 .in-world-date-wrapper{
     display: flex;
     align-items: center;
 }
 .in-world-head{
+    margin: 0;
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
     line-height: 28px;
     color: #000;
+}
+.in-world-date-head{
+    margin: 0 10px;
+    ont-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #5E5F61;
 }
 .in-world-head-link{
     font-style: normal;
@@ -256,14 +317,21 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #F6F6F6;
+    border-radius: 10px;
+}
+.watch-all{
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    background-color: #F6F6F6;
     padding: 15px 0px;
+    display: inline-block;
 }
 .basic{
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 15px 15px 0 15px;
     background-color: #F6F6F6;
     border-radius: 15px;
 }
@@ -276,6 +344,7 @@ body{
 }
 .basic-list{
     width: 393px;
+    padding: 0;
 }
 .basic-item{
     list-style-type: none;
@@ -303,6 +372,12 @@ footer{
 }
 .footer-list-wrapper{
     display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 40px 0;
+    border-bottom: 1px solid #fff;
 }
 .footer-wrapper-text{
     font-style: normal;
@@ -311,28 +386,46 @@ footer{
     line-height: 19px;
     color: #fff;
 }
+.info-wrapper{
+    display: flex;
+}
+.info-list{
+    margin-top: 40px;
+}
+.material-list{
+    margin-top: 40px;
+}
 .info-link{
+    display: inline-block;
+    color: #fff;
+    width: 224px;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
-    color: #fff;
-    width: 224px;
+    line-height: 30px;
 }
 .material-link{
+    display: inline-block;
+    width: 224px;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 30px;
     color: #fff;
-    width: 224px;
 }
 .social{
+    width: 1000px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 .social-list{
     display: flex;
+}
+.social-item{
+    margin-left: 30px;
 }
 .social-text-wrapper{
     width: 161px;
