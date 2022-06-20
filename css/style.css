@@ -228,7 +228,7 @@ body{
     align-items: center;
     width: 1050px;
     padding: 25px 70px 25px 30px;
-    background-image: url(/img/bgc.svg);
+    background-image: url(../img/bgc.svg);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -278,7 +278,8 @@ body{
     margin: 10px 0;
 }
 .in-world-item-box{
-    display: flex;flex-direction: column;
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
     padding: 0 15px;
 }
@@ -321,12 +322,13 @@ body{
     border-radius: 10px;
 }
 .watch-all{
+    padding: 15px 0px;
+    display: inline-block;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    padding: 15px 0px;
-    display: inline-block;
+    color: #000;
 }
 .basic{
     margin-top: 20px;
