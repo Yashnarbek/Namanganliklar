@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Rubik';
+    font-weight: 400;
+    src:
+         url("../fonts/rubik-v20-latin_cyrillic-regular.woff2") format("woff2"), 
+         url("../fonts/rubik-v20-latin_cyrillic-regular.woff") format("woff"); 
+  }
+  @font-face {
+    font-family: 'Rubik';
+    font-weight: 500;
+    src: 
+         url("../fonts/rubik-v20-latin_cyrillic-500.woff2") format("woff2"), 
+         url("../fonts/rubik-v20-latin_cyrillic-500.woff") format("woff"); 
+  }

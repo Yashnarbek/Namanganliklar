@@ -259,11 +259,13 @@ body{
     margin-bottom: 100px;
 }
 .in-world-wrapper{
+    padding-top: 20px;
     display: flex;
 }
 .in-world-list{
     width: 797px;
     padding: 0;
+    margin: 0;
 }
 .in-world-item{
     display: flex;
@@ -276,6 +278,10 @@ body{
 }
 .in-world-item-text{
     margin: 10px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4A4B4C;
 }
 .in-world-item-box{
     display: flex;
@@ -297,7 +303,6 @@ body{
 }
 .in-world-date-head{
     margin: 0 10px;
-    ont-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
@@ -313,6 +318,64 @@ body{
 }
 .in-world-item{
     background-color: #F6F6F6;
+}
+
+.flag::before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("../img/cub.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wheat::before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("../img/km.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.baidu::before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("../img/k+.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.phone::before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("../img/l.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.labaratory::before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("../img/g.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.car::before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("../img/cub.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .watch-all-box{
     display: flex;
@@ -331,11 +394,13 @@ body{
     color: #000;
 }
 .basic{
-    margin-top: 20px;
     margin-left: 10px;
-    padding: 15px 15px 0 15px;
-    background-color: #F6F6F6;
+    padding: 0 15px 0 15px;
     border-radius: 15px;
+}
+.basic-box{
+    padding-top: 20px;
+    background-color: #F6F6F6;
 }
 .basic-head{
     font-style: normal;
@@ -360,6 +425,7 @@ body{
     color: #000;
 }
 .basic-item-text{
+    align-items: center;
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
